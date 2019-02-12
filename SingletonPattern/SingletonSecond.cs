@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MySingleton
+namespace SingletonPattern
 {
 
     public class SingletonSecond
