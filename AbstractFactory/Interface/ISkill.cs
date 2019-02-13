@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod
+namespace AbstractFactory.Interface
 {
     /// <summary>
     /// 门派接口（抽象产品）
@@ -12,8 +12,8 @@ namespace FactoryMethod
     public interface ISkill
     {
         /// <summary>
-        /// 技能
+        /// 释放技能
         /// </summary>
-        void Skill();
+        void ReleaseSkill();
     }
 }

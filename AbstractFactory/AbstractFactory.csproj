@@ -43,18 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="Gold.cs" />
-    <Compile Include="GoldSectsSkillFactory.cs" />
-    <Compile Include="IFactory.cs" />
-    <Compile Include="ISkill.cs" />
-    <Compile Include="ISects.cs" />
+    <Compile Include="Factory\BaseFactory.cs" />
+    <Compile Include="Factory\Gold\WoodSectsSkillFactory.cs" />
+    <Compile Include="Services\Wood\WoodAuxiliarySkill.cs" />
+    <Compile Include="Services\Wood\WoodMagicAttackSkill.cs" />
+    <Compile Include="Services\Wood\WoodObstacleSkill.cs" />
+    <Compile Include="Services\Gold\GoldObstacleSkill.cs" />
+    <Compile Include="Factory\Gold\GoldSectsSkillFactory.cs" />
+    <Compile Include="Interface\ISkill.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Water.cs" />
-    <Compile Include="WaterFactory.cs" />
-    <Compile Include="Wood.cs" />
-    <Compile Include="WoodFactory.cs" />
+    <Compile Include="Services\Gold\GoldMagicAttackSkill.cs" />
+    <Compile Include="Services\Gold\GoldAuxiliarySkill.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

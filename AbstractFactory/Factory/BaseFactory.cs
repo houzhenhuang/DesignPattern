@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstractFactory.Interface;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -6,12 +7,12 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod
+namespace AbstractFactory.Factory
 {
     /// <summary>
     /// 抽象一个技能工厂
     /// </summary>
-    public abstract class AbstractFactory
+    public abstract class BaseFactory
     {
         /// <summary>
         /// 法术攻击技能
