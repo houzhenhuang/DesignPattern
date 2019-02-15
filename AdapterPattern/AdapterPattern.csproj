@@ -53,13 +53,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SituationSimulation\ClassAdapter\NoteBook.cs" />
     <Compile Include="SituationSimulation\ClassAdapter\Transformer.cs" />
-    <Compile Include="SituationSimulation\ClassAdapter\ICompute.cs" />
+    <Compile Include="SituationSimulation\ClassAdapter\IComputer.cs" />
+    <Compile Include="SituationSimulation\ObjectAdapter\IComputer.cs" />
+    <Compile Include="SituationSimulation\ObjectAdapter\NoteBook.cs" />
+    <Compile Include="SituationSimulation\ObjectAdapter\Transformer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SituationSimulation\ObjectAdapter\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

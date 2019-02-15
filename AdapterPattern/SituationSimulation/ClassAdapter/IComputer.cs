@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 namespace AdapterPattern.SituationSimulation.ClassAdapter
 {
     /// <summary>
-    /// 变压器
+    /// 接口
     /// </summary>
-    class Transformer : NoteBook, IComputer
+    interface IComputer
     {
-        public void GetVoltage()
-        {
-            this.Get220Voltage();
-        }
+        void GetVoltage();
     }
 }

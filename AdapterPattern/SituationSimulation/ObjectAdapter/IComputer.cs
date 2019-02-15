@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdapterPattern.SituationSimulation.ClassAdapter
+namespace AdapterPattern.SituationSimulation.ObjectAdapter
 {
     /// <summary>
     /// 接口
     /// </summary>
-    interface ICompute
+    interface IComputer
     {
         void GetVoltage();
     }
