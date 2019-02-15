@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicStructure\ClassAdapter\Adaptee.cs" />
+    <Compile Include="BasicStructure\ClassAdapter\Adapter.cs" />
+    <Compile Include="BasicStructure\ClassAdapter\ITarget.cs" />
+    <Compile Include="BasicStructure\ObjectAdapter\Adaptee.cs" />
+    <Compile Include="BasicStructure\ObjectAdapter\Adapter.cs" />
+    <Compile Include="BasicStructure\ObjectAdapter\ITarget.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationSimulation\ClassAdapter\NoteBook.cs" />
+    <Compile Include="SituationSimulation\ClassAdapter\Transformer.cs" />
+    <Compile Include="SituationSimulation\ClassAdapter\ICompute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SituationSimulation\ObjectAdapter\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
