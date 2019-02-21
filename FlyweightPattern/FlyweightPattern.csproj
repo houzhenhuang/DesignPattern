@@ -43,15 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicStructure\FlyweightFactory.cs" />
+    <Compile Include="BasicStructure\UnSharedConcreteFlyweight.cs" />
+    <Compile Include="BasicStructure\ConcreteFlyweight.cs" />
+    <Compile Include="BasicStructure\Flyweight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationSimulation\ConcreteWebSite.cs" />
+    <Compile Include="SituationSimulation\WebSite.cs" />
+    <Compile Include="SituationSimulation\WebSiteFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BasicStructure\" />
-    <Folder Include="SituationSimulation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
