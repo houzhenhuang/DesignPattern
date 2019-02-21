@@ -43,15 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicStructure\Facade.cs" />
+    <Compile Include="BasicStructure\SubSystemFour.cs" />
+    <Compile Include="BasicStructure\SubSystemThree.cs" />
+    <Compile Include="BasicStructure\SubSystemTwo.cs" />
+    <Compile Include="BasicStructure\SubSystemOne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationSimulation\NotebookPowerSupply.cs" />
+    <Compile Include="SituationSimulation\ClosePowerSupply.cs" />
+    <Compile Include="SituationSimulation\OpenPowerSupply.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BasicStructure\" />
-    <Folder Include="SituationSimulation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
