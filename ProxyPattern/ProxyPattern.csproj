@@ -43,15 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicStructure\Proxy.cs" />
+    <Compile Include="BasicStructure\RealSubject.cs" />
+    <Compile Include="BasicStructure\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationSimulation\BuyHandsetProxy.cs" />
+    <Compile Include="SituationSimulation\RealBuyHandset.cs" />
+    <Compile Include="SituationSimulation\BuyHandset.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BasicStructure\" />
-    <Folder Include="SituationSimulation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
