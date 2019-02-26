@@ -43,15 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicStructure\AbstractClass.cs" />
+    <Compile Include="BasicStructure\ConcreteClassB.cs" />
+    <Compile Include="BasicStructure\ConcreteClassA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SituationSimulation\AppleHandset.cs" />
+    <Compile Include="SituationSimulation\AppleHandset64G.cs" />
+    <Compile Include="SituationSimulation\AppleHandset128G.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BasicStructure\" />
-    <Folder Include="SituationSimulation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
